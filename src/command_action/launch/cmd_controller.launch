@@ -1,0 +1,5 @@
+<launch>
+    <node name="robotcore" pkg="dual_scara" type="robotcore" output="screen"/>
+    <node name="joy_node" pkg="joy" type="joy_node"/>
+    <node name="cmd_controller" pkg="command_action" type="cmd_controller" output="screen"/>
+</launch>

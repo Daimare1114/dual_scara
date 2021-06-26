@@ -1,0 +1,4 @@
+<launch>
+    <node name="robotcore" pkg="dual_scara" type="robotcore" output="screen"/>
+    <node name="cmd_keyboard" pkg="command_action" type="cmd_keyboard" output="screen"/>
+</launch>
